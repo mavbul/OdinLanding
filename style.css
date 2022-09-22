@@ -1,0 +1,207 @@
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.wrapper {
+    max-width: 1600px;
+    margin: auto;
+    
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: black;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+
+/*styles for header*/
+
+.header-wrapper {
+    max-width: 1600px;
+    margin: auto;
+    background-color: #1f2937;
+}
+
+
+.header {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.link a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+.header-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.header-bottom-left h1 {
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.header-bottom-left {
+    width: 400px;
+}
+
+.header-bottom-left p {
+    color: #E5E7EB;
+    font-size: 18px;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.header-bottom {
+    height: 500px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.placeholder {
+    min-width: 600px;
+    height: 240px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*end styles for header*/
+/*start styles for body*/
+
+.body-up-header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.body-up {
+    background-color: white;
+}
+
+.body-up-cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+
+.body-up-cards li {
+    width: 150px;
+    text-align: center;
+    line-height: 1.2em;
+}
+
+.body-up-cards-image {
+    height: 150px;
+    width: 150px;
+    border: solid 4px #3882F6;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.body-middle {
+    background-color: #E5E7EB;
+    height: 500px;
+    padding-top: 160px;
+}
+
+.quote {
+    margin: auto;
+    width: 800px;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    line-height: 1.2em;
+}
+
+.quote h1 {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+}
+
+.body-bottom {
+    background-color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modul {
+    display: flex;
+    width: 1000px;
+    height: 180px;
+    background-color: #3882F6;
+    justify-content: space-between;
+    align-items: center; 
+    border-radius: 20px;
+    color: white;
+    padding: 0px 100px;
+}
+
+.modul button {
+    border: solid 3px white;
+}
+
+.modul h1 {
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+footer {
+    display: flex;
+    height: 100px;
+}
+
+footer p {
+    color: white;
+    margin: auto;
+}
